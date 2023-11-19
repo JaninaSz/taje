@@ -125,8 +125,6 @@ label{
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.1s;
-
-    text-decoration: none;
     font-size: 18px;
     
     border-radius: 10px;

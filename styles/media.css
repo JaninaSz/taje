@@ -115,6 +115,15 @@ h3 {
         justify-content: space-between;
         align-items: start;
     }
+
+    .form-group p{       
+        margin-top: 10px;
+        font-size: 14px;    
+    }
+    .form-group a{
+        font-size: 16px;
+        padding: 10px;       
+    }
 .cont-mesas {
     width: 60px;
     height: 400px;
@@ -244,6 +253,14 @@ h3 {
         padding: 0px;
         margin: 5px;
         Max-width: 700px;
+    }    
+    .form-group p{       
+        margin-top: 10px;
+        font-size: 14px;    
+    }
+    .form-group a{
+        font-size: 16px;
+        padding: 10px;       
     }
     .cont-ifr {
         width: 400px;
@@ -295,6 +312,14 @@ h3 {
         Max-width: 40%;
     }
 
+    .form-group p{       
+        margin-top: 10px;
+        font-size: 14px;    
+    }
+    .form-group a{
+        font-size: 16px;
+        padding: 10px;       
+    }
     .bd-margin {
         margin: 10px 20px;
     }
@@ -349,6 +374,83 @@ h3 {
         margin-bottom: 10px;
     }
 }
+
+/*================================================*/
+
+@media(max-width:440px) {
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px;
+        width: 180px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .dv-link img {
+        width: 50px;
+        height: 60px;
+    }
+    .topNav {
+        width: 100%;
+        border-top: 1px solid #3498DB;
+        background: #fff;
+        padding: 10px;
+    }
+    .navbar{
+        height: 20px;
+    }
+    .navbar-start {
+        width: 70%;
+        padding: 5px;
+        margin: 0px;
+    }
+    .cont-menu {
+        width: 300px;
+        height: 60px;
+    }
+    .navbar-item {
+        padding: 5px;
+        width: 45%;
+        margin: 0px;
+    }
+    .cont-ifr {
+        width: 400px;
+        height: 600px;
+    }
+    .box-content {
+        position: absolute;
+        margin: auto;
+        width: 220px;
+        padding: 5px;
+}
+
+.form-group p{       
+    margin-top: 10px;
+    font-size: 12px;    
+}
+.form-group a{
+    font-size: 14px;
+    padding: 10px;       
+}
+    .ul{
+        list-style: none;
+text-decoration-style: none;
+    }
+    .ifr-mes{
+        width: 200px;
+        height: 900px;
+    }
+    .cont-footer {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+
 
 /*================================================*/
 
