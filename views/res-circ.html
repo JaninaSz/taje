@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/generales.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/res-part.css">
     <style data-styled="active" data-styled-version="5.3.11"></style>
     
@@ -20,7 +21,7 @@
   
     <div class="cont-parla">
         <div>
-        <label for="lbl-mesa"><b> Circuito: </b></label>
+        <span class="lbl-mesa"><b> Circuito: </b></span>
         <select name="circ" id="sltCirc">
             <option value="99"><b>Todos </b></option>
             <option value="17">17</option>
@@ -32,7 +33,7 @@
         </select><button class="btn-ver" onclick="selecCirc()">Consultar</button>
         </div>
         <div>
-                <label for="lbl-mesa"><b> Esc.: </b></label>
+            <span class="lbl-mesa"><b> Esc.: </b></span>
                 <select name="esc" id="sltEsc">
                     <option><b>Todas</b></option>
                     <option>Esc. Belgrano</option>
@@ -53,7 +54,7 @@
                 </select><button class="btn-ver" onclick="selecEsc()">Consultar</button>
         </div>
         <div>
-                <label id="lbl-mesa"><b> Mesa N° </b></label>
+            <span id="lbl-mesa"><b> Mesa N° </b></span>
                 <select name="mesa" id="sltMes">
                     <option><b>Todas</b></option>
                     <option>1136</option>
@@ -181,7 +182,8 @@
                 <p> </p>
             </div>
         </div>
-        <div id="cont-parla"></div>
+        
+        <div id="cont-parla">
         <p> </p>
             <div class="cont-task3" id="contTask2">
                 <img class="log-part" src="../assets/logos/000134.png" alt="logo_agrupacion">

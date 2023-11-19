@@ -129,6 +129,7 @@ h3 {
     height: 400px;
 }
     .cont-ifr {
+        margin: auto;
         width: 600px;
         height: 800px;
     }
@@ -138,6 +139,10 @@ h3 {
         height: 600px; 
         justify-content: space-evenly;
         padding: 3px;
+    }
+    .ifr-escuela {
+        width: 600px;
+        height: 640px;
     }
     .cont-botones {
         justify-content: start;
@@ -277,6 +282,10 @@ h3 {
         width: 400px;
         height: 600px;
     }
+    .ifr-escuela {
+        width: 400px;
+        height: 600px;
+    }
     .ifr-mes{
         width: 400px;
         height: 600px;
@@ -289,7 +298,6 @@ h3 {
     .cont-footer {
         width: 900px;
         text-align: center;
-
     }
 }
 /*================================================*/
@@ -491,6 +499,19 @@ h3 {
         width: 400px;
         height: 600px;
     }
+    .cont-ifres {
+        width: 400px;
+        height: 700px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#ffffff;
+       
+    }
+    .ifr-escuela {
+        width: 400px;
+        height: 640px;
+    }
     .box-content {
         position: absolute;
         margin: auto;
@@ -511,8 +532,25 @@ h3 {
 text-decoration-style: none;
     }
     .ifr-mes{
-        width: 400px;
+        width: 200px;
         height: 900px;
+    }
+.ifr-escu{
+        width: 400px;
+        height: 200px;
+    }
+.columfij{   
+    margin: 0px;
+    width: 100%;
+    padding: 5px;
+
+    }
+    .dv-frencur{
+        width: 80px;
+        height: 120px;
+        margin-top: 0px;
+        padding: 5px;
+        display: flex;
     }
     .cont-footer {
         width: 100%;

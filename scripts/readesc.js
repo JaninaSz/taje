@@ -1,7 +1,7 @@
 var v_esc = document.getElementById("sltEsc").value;
 
-/*function cargar() {
-    const circ = fetch("../assets/dt/cir-esc.json")
+function cargar() {
+    const circ = fetch("../assets/dt/votodos.json")
 
     circ.then(res => res.json())
         .then(datos => {
@@ -13,19 +13,19 @@ var v_esc = document.getElementById("sltEsc").value;
 function iniciar(datos) {    
     var subtit = document.getElementById("p-seleccionado");
     var spnc=document.getElementById("sp-nci");
-    
-    $.each(datos, function (numcir, nombresc) {
-        $sltEsc.append('<option value=' + datos.numcir + '>' + datos.nombresc + '</option>');
-    });
+    /*
+    $.each(datos, function (circuito, nombresc) {
+        $sltEsc.append('<option value=' + datos.circuito + '>' + datos.nombresc + '</option>');
+    });*/
     for (let valor of datos) {
 
         if (v_esc == valor.nombresc) {
-        spnc.textContent=`${valor.numcir}`;
+        spnc.textContent=`${valor.circuito}`;
         subtit.textContent=`N° ${valor.numesc} - ${valor.nombresc}`;
         }
     }
 }
-*/
+
 function selecEsc() {
     const esc = fetch("assets/dt/votodos.json");
 

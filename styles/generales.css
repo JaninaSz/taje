@@ -84,6 +84,13 @@ hr {
     justify-content: space-around;
     align-items: flex-start;
 }
+.columfij{   
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 .cont-parla{
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);

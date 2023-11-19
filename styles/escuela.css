@@ -46,7 +46,8 @@ button {
     cursor: pointer;
 }
 footer {
-    margin-top: 100px;
+    margin-top: 800px;
+    margin-bottom: 0px;
     background-color: #F2F6FA !important;
 }
 

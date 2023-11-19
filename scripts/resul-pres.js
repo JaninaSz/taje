@@ -1,7 +1,7 @@
-
-//Presidente
+alert("toto")
+/*Presidente
 var entTpd1 = document.getElementById("e-tpd1").value;
-var entTpd2 = document.getElementById("e-tpd1").value;
+var entTpd2 = document.getElementById("e-tpd1").value;*/
 
 function cargaEst() {
       const circ = fetch("../assets/dt/votodos.json");
@@ -13,16 +13,18 @@ function cargaEst() {
             });
 }
 
-function est(datos) {
+function est(data) {
 
       alert(entEscrut)
-      for (let valor of datos) {
-            var entTvot= sum(valor.cantivo);
-            var entTpd1 = sum(valor.pres_1);
-            var entTpd2 = sum(valor.pres_2)
+      for (let valor of data) {
+            var entTvot=+ sum +`$(valor.cantivo)`;
+            var entTpd1 =+ sum(valor.pres_1);
+            var entTpd2 =+ sum(valor.pres_2)
+            alert("totjuo" + entTvot)
       }
       document.getElementById("tpd-1").textContent = entTpd1;
       document.getElementById("tpd-2").textContent = entTpd2;
+      
 return entTvot;
       
 }
@@ -31,7 +33,7 @@ return entTvot;
 //votos/total*100
 totalpersonas = 34064
 votaron = 25600
-alert("toto" + entTvot)
+/*
 function porcentajes(entTvot) {
       calPd1 = (entTpd1 / entTvot) * 100;
       calPd2 = (entTpd2 / entTvot) * 100;
@@ -51,14 +53,8 @@ function porcentajes(entTvot) {
       alert(porPd2);
       alert(porPd3);
       alert(porPd4);
-      alert(porPd5);*/
+      alert(porPd5);**-/
       document.getElementById("p-porPd1").textContent = porPd1;
 
       document.getElementById("p-porPd2").textContent = porPd2;
-
-      document.getElementById("p-porPd3").textContent = porPd3;
-
-      document.getElementById("p-porPd4").textContent = porPd4;
-
-      document.getElementById("p-porPd5").textContent = porPd5;
-}
+}*/

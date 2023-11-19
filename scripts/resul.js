@@ -1,4 +1,4 @@
-
+/*
 function cargaEst() {
     const circ = fetch("../assets/dt/votodos.json");
    
@@ -23,7 +23,7 @@ function cargaEst() {
         document.getElementById("por-bla").textContent = entTbla;
         document.getElementById("tolvo").textContent = entTvot;
         alert("toto"+entTvot)
-    }
+    }*/
     alert("escr"+entEscrut)
 /*EstadisticasFijas
 var entTbla=document.getElementById("e-tbla").value;

@@ -11,8 +11,7 @@ function cargar() {
         
 function iniciar(datos) {    
     var subtit = document.getElementById("p-seleccionado");
-    var spnc=document.getElementById("sp-nci");
-    spnc.textContent=`- ${valor.circuito} -`;
+    
    /* $.each(datos, function (numcir, nombresc) {
         $sltEsc.append('<option value=' + datos.numcir + '>' + datos.nombresc + '</option>');
     });*/
@@ -39,6 +38,7 @@ function selecCirc() {
     }
 function valCir(datos) {  
     var v_cir = document.getElementById("sltCirc").value;
+    var spnc=document.getElementById("sp-nci");
     for (let valor of datos) {
         if (v_cir == valor.circuito) {
             
