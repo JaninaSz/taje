@@ -75,7 +75,7 @@ table{
     margin-top: 20px;
     text-align: center;
     height:auto;
-    width: 550px;   
+    /*width: 550px;   */
 }
 tr td {
     border-color: white;

@@ -249,6 +249,17 @@ h3 {
         width: 45%;
         margin: 0px;
     }
+    .window-notice {
+        background: rgba(33, 41, 52, .85);
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        position: fixed;
+        z-index: 500;
+        
+    }
     .sct-body {
         padding: 0px;
         margin: 5px;
@@ -344,7 +355,28 @@ h3 {
         width: 570px;
         height: 60px;
     }
-
+    .window-notice {
+        background: rgba(33, 41, 52, .85);
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        position: fixed;
+        z-index: 500;
+        
+    }
+    .window-notice .content {
+        flex-direction: column;
+        margin: auto;
+        max-width: 100px;
+        min-width: 200px !important;
+        overflow: hidden;
+        position: absolute;
+        width: 60%;
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
 
 
 
@@ -400,8 +432,11 @@ h3 {
         background: #fff;
         padding: 10px;
     }
+    .cont-nav {
+        width: 100%;
+    }
     .navbar{
-        height: 20px;
+        height: 40px;
     }
     .navbar-start {
         width: 70%;
@@ -409,13 +444,44 @@ h3 {
         margin: 0px;
     }
     .cont-menu {
-        width: 300px;
-        height: 60px;
+        width: 800px;
+        height: 70px;
     }
     .navbar-item {
         padding: 5px;
-        width: 45%;
+        width: 100px;
         margin: 0px;
+    }
+    .navbar-end, .navbarEnd {
+        width:70px;
+    }
+    
+    .window-notice {
+        background: rgba(33, 41, 52, .85);
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        position: fixed;
+        z-index: 500;
+        
+    }
+    .window-notice .content {
+        flex-direction: column;
+        margin: auto;
+        width: 100px;
+        width: 200px !important;
+        overflow: hidden;
+        position: absolute;
+        width: 60%;
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+    .sct-body {
+        padding: 0px;
+        margin: 5px;
+        Max-width: 90%;
     }
     .cont-ifr {
         width: 400px;
