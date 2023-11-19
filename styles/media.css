@@ -1,3 +1,34 @@
+@media(max-width:1080px) {
+    .cont-ifr {
+        margin: 0px;
+        width: 600px;
+        height: 800px;
+    }
+
+    .ifr-mes{
+        width: 600px;
+        height: 600px; 
+        justify-content: space-evenly;
+        padding: 3px;
+    }
+    .ifr-escuela {
+        width: 600px;
+        height: 640px;
+}
+.cont-parla{
+    max-width: 580px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+    align-items:center;
+    display:flex;   
+    justify-content: space-between;
+   
+   /*flex-direction: column; */
+}
+}
 @media(max-width:881px) {
     .men-prin {
         width: 100%;
