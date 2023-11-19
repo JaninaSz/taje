@@ -132,8 +132,16 @@ label{
     border-radius: 10px;
     color: rgb(132, 132, 135);
 }
+
+.accordion__label a{
+    text-decoration: none;
+    
+    border-radius: 15px;
+    color: rgb(132, 132, 135);
+}
 .accordion__label:hover{
     background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(25, 25, 27);
 }
 .section2 .accordion__content{
     display: block;
