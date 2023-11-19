@@ -1,4 +1,4 @@
-alert("toto")
+
 /*Presidente
 var entTpd1 = document.getElementById("e-tpd1").value;
 var entTpd2 = document.getElementById("e-tpd1").value;*/
@@ -20,7 +20,6 @@ function est(data) {
             var entTvot=+ sum +`$(valor.cantivo)`;
             var entTpd1 =+ sum(valor.pres_1);
             var entTpd2 =+ sum(valor.pres_2)
-            alert("totjuo" + entTvot)
       }
       document.getElementById("tpd-1").textContent = entTpd1;
       document.getElementById("tpd-2").textContent = entTpd2;
