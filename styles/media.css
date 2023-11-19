@@ -436,7 +436,8 @@ h3 {
         width: 100%;
     }
     .navbar{
-        height: 40px;
+        width: 100%;
+        height: 50px;
     }
     .navbar-start {
         width: 70%;
@@ -444,13 +445,15 @@ h3 {
         margin: 0px;
     }
     .cont-menu {
-        width: 800px;
+        width: 100%;
         height: 70px;
     }
     .navbar-item {
-        padding: 5px;
-        width: 100px;
+        width: 110px;
         margin: 0px;
+    }
+    .men-prin .navbar-item {/*espaciado de menu*/
+        padding: 20px 10px;
     }
     .navbar-end, .navbarEnd {
         width:70px;
@@ -479,6 +482,7 @@ h3 {
         font-size: 0.8rem;
     }
     .sct-body {
+        height: 60px;
         padding: 0px;
         margin: 5px;
         Max-width: 90%;
@@ -507,7 +511,7 @@ h3 {
 text-decoration-style: none;
     }
     .ifr-mes{
-        width: 200px;
+        width: 400px;
         height: 900px;
     }
     .cont-footer {
@@ -561,7 +565,7 @@ text-decoration-style: none;
         margin: 0px;
     }
     .cont-ifr {
-        width: 400px;
+        width: 300px;
         height: 600px;
     }
     .box-content {
@@ -575,7 +579,7 @@ text-decoration-style: none;
 text-decoration-style: none;
     }
     .ifr-mes{
-        width: 200px;
+        width: 300px;
         height: 900px;
     }
     .cont-footer {
