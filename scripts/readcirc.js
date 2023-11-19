@@ -11,7 +11,8 @@ function cargar() {
         
 function iniciar(datos) {    
     var subtit = document.getElementById("p-seleccionado");
-    
+    var v_cir = document.getElementById("sltCirc").value;
+    var spnc=document.getElementById("sp-nci");
    /* $.each(datos, function (numcir, nombresc) {
         $sltEsc.append('<option value=' + datos.numcir + '>' + datos.nombresc + '</option>');
     });*/
@@ -37,13 +38,14 @@ function selecCirc() {
         });
     }
 function valCir(datos) {  
+    var subtit = document.getElementById("p-seleccionado");
     var v_cir = document.getElementById("sltCirc").value;
     var spnc=document.getElementById("sp-nci");
     for (let valor of datos) {
         if (v_cir == valor.circuito) {
             
             spnc.textContent=`- ${valor.circuito} -`;
-            
+            subtit.textContent=` N° ${valor.numesc} - ${valor.nombresc}`;
             contTask2.innerHTML = `
             
                 <img class="log-par" src="../assets/logos/000134.png" alt="logo_agrupacion">

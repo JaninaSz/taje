@@ -9,8 +9,7 @@ h3 {
 .pf-encab{
     /*font-weight: bold;*/
     padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;  
+    margin: auto; 
     text-align: center;  
     align-self: center;
 }
@@ -26,9 +25,14 @@ h3 {
     width: 60px;
     height: 60px;
 }
-
+.sp-circ {
+    font-size:20px;
+    margin: 12px;
+    margin-left: 0px;
+    text-align: left;
+}
 .sp-votos {
-    font-size: 20px;
+    font-size:35px;
     margin: 12px;
     margin-left: 0px;
     text-align: left;
@@ -95,20 +99,18 @@ h3 {
     padding: 5px;
     margin-top: 5px;
 }
-.cont-tasko3 {
+.cont-task3 {
     width: 200px;
     height: auto;
     border: 1px solid grey;
-    border-top: 9px solid #5b97d7;
+    border-left: 9px solid #5b97d7;
     border-radius: 10px;
     padding: 5px;
     margin-top: 5px;
 }
 .cont-task4 {
     width: 200px;
-    height: auto;
-    border: 1px solid grey;
-    
+    height: auto;    
     border-left: 9px solid #651273;
     border-radius: 10px;
     padding: 5px;

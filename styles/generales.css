@@ -96,13 +96,12 @@ hr {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 5px;
-    margin: auto;
     overflow: hidden;
     margin-top: 15px;
-
+    align-items:center;
     display:flex;   
     justify-content: space-between;
-    align-items:center;
+   
    /*flex-direction: column; */
 }
 .cont-parlas{
